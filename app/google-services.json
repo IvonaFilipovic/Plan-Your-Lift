@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1070911499289",
+    "firebase_url": "https://ivonafyp.firebaseio.com",
+    "project_id": "ivonafyp",
+    "storage_bucket": "ivonafyp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070911499289:android:0f3a6550c36c70fef9ce88",
+        "android_client_info": {
+          "package_name": "com.ivonafyp.planyourlift"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070911499289-17smgfoepvp8916c2o846ir0ui0pcfak.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ivonafyp.planyourlift",
+            "certificate_hash": "8698bd9ac86a65d640c3319a3576c47bb48a9a28"
+          }
+        },
+        {
+          "client_id": "1070911499289-782u487lcv2ost02g2imvp2e7p4ob015.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqR3_78CWIk-irI2AG_MocGcgDEsecFUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070911499289-782u487lcv2ost02g2imvp2e7p4ob015.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

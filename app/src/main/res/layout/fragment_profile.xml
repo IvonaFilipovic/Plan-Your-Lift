@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#333138">
+
+
+        <TextView
+            android:id="@+id/profilename"
+            android:layout_width="394dp"
+            android:layout_height="59dp"
+            android:gravity="center_horizontal"
+            android:text="Name"
+            android:textAlignment="center"
+            android:textColor="#FF312E"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.055" />
+
+        <TextView
+            android:id="@+id/profileemail"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:gravity="center_horizontal"
+            android:text="Email"
+            android:textAlignment="center"
+            android:textColor="#FF312E"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profilename"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/changeemail"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Change Email"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:backgroundTint="#FF312E"
+            app:layout_constraintBottom_toTopOf="@+id/changepass"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profileemail"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/changepass"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Change Password"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:backgroundTint="#FF312E"
+            app:layout_constraintBottom_toTopOf="@+id/deleteaccount"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/changeemail"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/deleteaccount"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Delete account"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:backgroundTint="#FF312E"
+            app:layout_constraintBottom_toTopOf="@+id/profilelogout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/changepass"
+            app:layout_constraintVertical_bias="0.965" />
+
+        <Button
+            android:id="@+id/profilelogout"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Logout"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:backgroundTint="#FF312E"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/deleteaccount" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

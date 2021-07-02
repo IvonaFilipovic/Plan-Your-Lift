@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/profilef">
+
+    <fragment
+        android:id="@+id/profilef"
+        android:name="com.ivonafyp.planyourlift.Profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profilef_to_createwf"
+            app:destination="@id/createwf" />
+        <action
+            android:id="@+id/action_profilef_to_homef"
+            app:destination="@id/histf" />
+        <action
+            android:id="@+id/action_profilef_to_currentwf"
+            app:destination="@id/currentwf" />
+    </fragment>
+    <fragment
+        android:id="@+id/createwf"
+        android:name="com.ivonafyp.planyourlift.CreateWorkout"
+        android:label="fragment_createworkout"
+        tools:layout="@layout/fragment_createworkout" />
+    <fragment
+        android:id="@+id/histf"
+        android:name="com.ivonafyp.planyourlift.History"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history"/>
+    <fragment
+        android:id="@+id/currentwf"
+        android:name="com.ivonafyp.planyourlift.CurrentWorkout"
+        android:label="fragment_currentworkout"
+        tools:layout="@layout/fragment_currentworkout" />
+</navigation>

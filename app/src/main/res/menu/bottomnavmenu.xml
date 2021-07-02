@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/profile"
+        android:icon="@drawable/icon_profile"
+        android:title="Profile"
+        />
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/icon_history"
+        android:title="History"
+     />
+
+    <item android:id="@+id/currentw"
+        android:icon="@drawable/icon_currentw"
+        android:title="Workout"
+        />
+
+    <item android:id="@+id/createw"
+        android:icon="@drawable/icon_createw"
+        android:title="Create"
+
+        />
+</menu>
